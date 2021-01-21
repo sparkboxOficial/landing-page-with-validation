@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- link for google fonts - Poppins -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+
+  <!-- link for icons from fontawesome -->
+  <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+
+  <link rel="stylesheet" href="./style.css">
+
+  <title>Login Page</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="wrapper">
+      <form action="#" class="form-container">
+        <h1>Bem Vindo</h1>
+        <section class="input-area">
+          <div class="input-form">
+            <i class="fas fa-user"></i>
+            <input type="email" name="email" id="email">
+          </div>
+
+          <div class="input-form">
+            <i class="fas fa-lock"></i>
+            <input type="password" name="password" id="password">
+          </div>
+        </section>
+        <div class="divider"></div>
+        <section class="validator-area">
+          <ul>
+
+            <li id="lower-upper">
+              <span >
+                <i class="fas fa-circle"></i>
+              </span> Lower case & Uppercase
+            </li>
+            <li id="numbers">
+              <span >
+                <i class="fas fa-circle"></i>
+              </span> Number (0 - 9)
+            </li>
+            <li id="special-character">
+              <span >
+                <i class="fas fa-circle"></i>
+              </span>Special Character (!@#$%ˆ&*)
+            </li>
+            <li id="digits">
+              <span >
+                <i class="fas fa-circle"></i>
+              </span>At least 8 digits
+            </li>
+
+          </ul>
+        </section>
+        <input id="submit-button" type="submit" value="Create Account" class="btn active" disabled>
+      </form>
+    </div>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+
+</html>
